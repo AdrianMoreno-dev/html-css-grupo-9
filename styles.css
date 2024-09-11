@@ -1,0 +1,49 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Cambia la fuente de mi texto*/
+    margin: 0; /* Elimina el margen por defecto del body*/
+    padding: 0; /* Elimina el padding por defecto del body */
+    background-color: cadetblue; /* Color de fondo */
+    color: black; /* Color del texto */
+}
+
+header {
+    background-color: #4CAF50;
+    /*Colordefondodelheader*/color: white;
+    /*Colordeltexto*/padding: 80px;
+    /*Espaciointernodelheader*/text-align: center;
+    /*Alineacióndeltextoalcentro*/box-shadow: 0 25px 50px rgba(0, 0, 0, 0.9);
+    /*Sombradelheader*/border: 3px solid red;
+    /*BordedelasetiquetasHTML*/margin: 10px 10px 0px 10px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+nav ul li {
+    display: inline;
+}
+
+#sobre-mi {
+    text-transform: uppercase;
+}
+
+#contacto {
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+
+.estilos-generales {
+    text-align: center;
+    
+}
+
+.tamano-texto {
+    font-size: 10px;
+}
